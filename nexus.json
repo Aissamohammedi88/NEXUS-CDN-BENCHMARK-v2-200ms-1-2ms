@@ -1,0 +1,22 @@
+{
+  "node": {
+    "name": "node-local-01",
+    "region": "local",
+    "host": "127.0.0.1",
+    "port": 8765
+  },
+  "cache": {
+    "max_entries": 5000,
+    "ttl_s": 300,
+    "max_body_bytes": 5242880
+  },
+  "origins": {
+    "": "https://cdn.jsdelivr.net"
+  },
+  "warmup": [
+    "/npm/jquery@3.7.1/dist/jquery.min.js"
+  ],
+  "log_file": "logs/nexusd.log",
+  "state_file": "runtime/state.json",
+  "pid_file": "runtime/nexusd.pid"
+}
