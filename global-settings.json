@@ -1,0 +1,41 @@
+{
+  "enableTrayIcon": false,
+  "startMinimized": false,
+  "hideToTrayOnPlayback": false,
+  "hideToTrayOnRecording": false,
+  "suppressFastLoopWarning": false,
+  "macOSScreenRecordingOnboardingCompleted": false,
+  "logLevel": "Information",
+  "theme": "Mocha",
+  "language": "fr",
+  "mcpSecurity": {
+    "paths": {
+      "macroReadRoots": [],
+      "macroWriteRoots": [],
+      "imageReadRoots": [],
+      "imageWriteRoots": [],
+      "fileReadRoots": [],
+      "fileWriteRoots": []
+    },
+    "approvalTimeoutSeconds": 30,
+    "allowMacroRead": true,
+    "allowScreenRead": true,
+    "allowClipboardRead": true,
+    "allowClipboardWrite": true,
+    "allowInputAutomation": true,
+    "allowRecording": true,
+    "allowWindowRead": true,
+    "allowWindowControl": true,
+    "allowFileRead": true,
+    "allowFileWrite": true,
+    "allowCommandExecute": true,
+    "allowShellExecute": true,
+    "allowSettingsRead": true,
+    "allowSettingsWrite": true,
+    "allowProfileManage": true,
+    "allowTextExpansionRead": true,
+    "allowTextExpansionWrite": true,
+    "allowTaskManage": true,
+    "allowPrivilegeElevation": false
+  }
+}

@@ -1,0 +1,12 @@
+SYNTHÈSE NEXUS STUDIO
+========================================
+Actions exécutées : 14
+Réussies : 14 (100.0%)
+Meilleur p99 : 0.23 ms
+  CACHE  1
+  DEPLOY 3
+  HDR    1
+  HTTP   2
+  LAT    3
+  PROBE  3
+  RESIL  1

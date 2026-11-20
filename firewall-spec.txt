@@ -1,0 +1,6 @@
+# NEXUS — règles ufw suggérées (à adapter à votre politique DC)
+sudo ufw allow from 10.0.0.0/8 to any port 8765 proto tcp   # edge privé
+sudo ufw allow from 172.16.0.0/12 to any port 8765 proto tcp
+sudo ufw allow from 192.168.0.0/16 to any port 8765 proto tcp
+# /nexus/shutdown est déjà refusé hors localhost par nexusd v1.0
+sudo ufw deny 8765/tcp from any                             # tout le reste

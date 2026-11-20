@@ -1,0 +1,12 @@
+{
+"version": "4.0.0",
+"auteur": "Aissa Mahammedi (DGK)",
+"licence": "NEXUS-OPEN-2.0",
+"port": 9999,
+"token": "nexus-pro-dgk-2026",
+"options": {
+"auto_refresh": true,
+"refresh_interval": 2,
+"backup_before_clean": true
+}
+}

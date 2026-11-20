@@ -1,0 +1,15 @@
+[Unit]
+Description=NEXUS Edge Node (nexusd v1.0)
+After=network.target
+
+[Service]
+Type=simple
+User=z
+WorkingDirectory=/home/z/my-project/download/nexus-edge
+ExecStart=/home/z/.venv/bin/python3 /home/z/my-project/download/nexus-edge/nexusd.py --config /home/z/my-project/download/nexus-edge/config/nexus.json
+Restart=always
+RestartSec=2
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
